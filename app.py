@@ -27,9 +27,11 @@ while True:
     elif choice == "3":
         if favourite_foods:
             for index, food in enumerate(favourite_foods, start=1):
-                print(f"{index}.{food}")
+                print(f"{index}. {food}")
         else:
             print("Your favourite food list is empty!")
+            
+        print("\n")
 
     else:
         print("Invalid choice!!!")
